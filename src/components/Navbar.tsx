@@ -1,6 +1,6 @@
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { ShoppingCart, Heart, Menu } from "lucide-react";
+import { ShoppingCart, Heart, Menu, Moon } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -41,6 +41,9 @@ export default function Navbar() {
         </Link>
 
         <div className="flex items-center gap-4">
+          <Button variant="ghost" size="icon">
+            <Moon className="h-6 w-6" />
+          </Button>
           <Link to="/wishlist">
             <Button variant="ghost" size="icon">
               <Heart className="h-6 w-6" />
