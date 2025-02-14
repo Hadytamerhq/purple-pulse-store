@@ -4,27 +4,25 @@ import Navbar from "@/components/Navbar";
 import ProductCard from "@/components/ProductCard";
 import { Product } from "@/types";
 
-// Mock products data
 const products: Product[] = [
   {
     id: 1,
     name: "Premium Wireless Headphones",
     price: 299.99,
-    image: "https://placehold.co/400x400",
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
   },
   {
     id: 2,
     name: "Smart Watch Series 5",
     price: 399.99,
-    image: "https://placehold.co/400x400",
+    image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=800&q=80",
   },
   {
     id: 3,
     name: "Laptop Pro 16",
     price: 1999.99,
-    image: "https://placehold.co/400x400",
+    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
   },
-  // Add more products as needed
 ];
 
 export default function Shop() {

@@ -10,7 +10,7 @@ const saleProducts: Product[] = [
     price: 79.99,
     discounted: true,
     discountedPrice: 49.99,
-    image: "https://placehold.co/400x400",
+    image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&q=80",
   },
   {
     id: 5,
@@ -18,9 +18,8 @@ const saleProducts: Product[] = [
     price: 159.99,
     discounted: true,
     discountedPrice: 129.99,
-    image: "https://placehold.co/400x400",
+    image: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=800&q=80",
   },
-  // Add more sale products as needed
 ];
 
 export default function Sales() {
